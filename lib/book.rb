@@ -27,11 +27,15 @@ end
 def genre=(genre)
   @genre = genre
 end
+
 def genre
   @genre
 end
 
+def turn_page
+  puts "Flipping the page...wow, you read fast!"
 end
 
 
-Book.new("And Then There Were None")
+Book.new("Some Title")
+book.turn_page
