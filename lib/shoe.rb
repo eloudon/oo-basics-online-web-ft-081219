@@ -46,4 +46,3 @@ def cobble
 end
 
 end
-  
